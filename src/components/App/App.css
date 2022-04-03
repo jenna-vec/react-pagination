@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(158, 166, 173);
+}
+
+.body {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+}
+
+span, h1, h2, h3, h4, p, a, button {
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  margin-block-end: 0;
+  margin-block-start: 0; 
+}
+
+th, td {
+  color: rgb(100 105 110) !important;
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 3em;
+}
+
+.center {
+  width: 80vw;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  grid-gap: 0.4em;
+  align-items: center;
+}
+
+path {
+  color: white !important;
+  cursor: pointer;
+}
+
+th {
+  font-weight: 600 !important;
+}
+
+.disabled > path {
+  color: rgba(255, 255, 255, 0.35) !important;
+  cursor: not-allowed;
+}
+
+span {
+  color: white !important;
+  cursor: default;
+}
+
+.pagination-button {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  font-weight: 500;
+  text-decoration: none;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  border-radius: 16px;
+  text-align: center;
+  box-sizing: border-box;
+  min-width: 32px;
+  height: 32px;
+  padding: 0px 6px;
+  color: white;
+  border-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.pagination-button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.selected {
+  background-color: rgba(255, 255, 255, 0.5);
+}
