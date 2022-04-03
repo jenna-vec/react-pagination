@@ -1,6 +1,8 @@
 ### BASIC REACT PAGINATION
 #### Display JSON Data with Pagination  
 
+![App Page](/public/app.png)
+
 
 **Scripts**  
 Install Dependencies:  
@@ -9,7 +11,7 @@ Install Dependencies:
 Run Development Build:  
 ``npm start``  
   
-
+  
 **Functionality**  
 Single-Page Application  
 This project was inspired by Shubham Khatri's pagination [repository](https://github.com/mayankshubham/react-pagination).  
