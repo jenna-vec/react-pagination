@@ -14,5 +14,4 @@ Run Development Build:
   
 **Functionality**  
 Single-Page Application  
-This project was inspired by Shubham Khatri's pagination [repository](https://github.com/mayankshubham/react-pagination).  
 The pagination component changes which portion of the user data is displayed.
